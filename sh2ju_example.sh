@@ -32,4 +32,5 @@ juLog  -name=myCustomizedMethod             myCmd '*.sh'
 #### Success command with a class defined
 juLog  -name=myTrueCommand -class=TestFunctionality                 true
 
-
+#### Specified Output Directory
+juLog  -name=myTrueCommand -output=./ false
